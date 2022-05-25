@@ -1,4 +1,4 @@
-package org.ada.algoritmoslineales;
+package algoritmoslineales;
 
 import java.util.Scanner;
 
