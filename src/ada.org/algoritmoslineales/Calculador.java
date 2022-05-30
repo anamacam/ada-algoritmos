@@ -29,8 +29,8 @@ public class Calculador {
         double n4= lectorDatos.nextDouble();
 
         double promedioNotas = n1 + n2 + n3 + n4 / CANTIDAD_NOTAS;
-        System.out.println(" El promedio de notas es:" + promedioNotas);}
-
+        System.out.println(" El promedio de notas es:" + promedioNotas);
+    }
 
 }
 
