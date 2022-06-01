@@ -1,4 +1,4 @@
-package algoritmoslineales;
+package ada.org.algoritmoslineales;
 
 import java.util.Scanner;
 
@@ -12,6 +12,17 @@ public class Calculador {
 
         int resultadoSuma = sumandoA + sumandoB;
         System.out.println(" El resultado de la suma es:" + resultadoSuma);
+    }
+
+    public void multiplicarNumeros(){
+        Scanner lectorDatos = new Scanner(System.in);
+        System.out.println("Ingrese número a multiplicar");
+        int numeroA = lectorDatos.nextInt();
+        System.out.println("Ingrese número a multiplicar");
+        int numeroB = lectorDatos.nextInt();
+
+        int resultadoMultiplicacion = numeroA * numeroB;
+        System.out.println(" El resultado de la multiplicación es:" + resultadoMultiplicacion);
     }
 
     public void calcularPromedio(){
