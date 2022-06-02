@@ -1,4 +1,4 @@
-package org.ada.dominio;
+package ada.org.dominio;
 
 public class Gato {
 

@@ -1,4 +1,6 @@
-import org.ada.dominio.Item;
+package ada.org;
+
+import ada.org.dominio.Item;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
