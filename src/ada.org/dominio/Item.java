@@ -1,4 +1,4 @@
-package org.ada.dominio;
+package ada.org.dominio;
 
 import java.util.Date;
 

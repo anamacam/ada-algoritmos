@@ -1,8 +1,6 @@
-import org.ada.algoritmoslineales.EstructuraDeRepeticion;
-import org.ada.dominio.Animal;
-import org.ada.dominio.Item;
-import org.ada.dominio.Perro;
-import org.ada.dominio.Persona;
+package ada.org;
+
+import ada.org.dominio.Item;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
