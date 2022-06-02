@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 package ada.org;
 
 import ada.org.dominio.Item;
+=======
+import org.ada.dominio.Item;
+>>>>>>> feature/operacion-multiplicar
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
