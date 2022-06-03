@@ -43,5 +43,16 @@ public class Calculador {
         System.out.println(" El promedio de notas es:" + promedioNotas);
     }
 
+    public void calcularAreaRectangulo(){
+        Scanner lectorDatos = new Scanner(System.in);
+        System.out.println("Ingrese la altura del rectángulo");
+        int altura = lectorDatos.nextInt();
+        System.out.println("Ingrese la base del rectángulo");
+        int base = lectorDatos.nextInt();
+        int area = base * altura;
+
+        System.out.println("El área del rectángulo es:" + area);
+    }
+
 }
 
